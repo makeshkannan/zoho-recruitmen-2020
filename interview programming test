@@ -1,0 +1,23 @@
+/*program for FLOYD TRIANGLE MIRROR  */
+/*logic for this program*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int i,j,n,spacecount;
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+  for(spaceconut=n;spacecount>=1;spacecount--)
+  {
+    printf(" ");
+    }
+    for(j=1;j<=n;j++)
+    {
+      printf("%d",j);
+      }
+      printf('\n");
+      n--;
+   }
+   return 0;
+   }
